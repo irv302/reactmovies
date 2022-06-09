@@ -20,7 +20,7 @@ const getMovie = async (searchTerm) => {
 
 };
 React.useEffect(() => {
-  getMovie("UP");
+  getMovie();
 }, []); 
 
   return (
